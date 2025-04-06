@@ -1,0 +1,11 @@
+2025-04-06 13:59:38,436 :INFO :====== WebDriver manager ======
+2025-04-06 13:59:39,949 :INFO :Get LATEST chromedriver version for google-chrome
+2025-04-06 13:59:40,058 :INFO :Get LATEST chromedriver version for google-chrome
+2025-04-06 13:59:40,174 :INFO :Driver [C:\Users\Owner\.wdm\drivers\chromedriver\win64\135.0.7049.42\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 13:59:41,291 :INFO :******** Verifying Login test ********
+2025-04-06 13:59:41,291 :INFO :********Call the Browser Configuration********
+2025-04-06 13:59:41,946 :INFO :********Define the LoginPage Driver********
+2025-04-06 13:59:46,953 :INFO :********Type the Username*******
+2025-04-06 13:59:50,617 :INFO :********Type the Password*******
+2025-04-06 13:59:53,762 :INFO :******** Click the Log in Button*******
+2025-04-06 14:00:19,443 :INFO :********Add Products Test is successful********
