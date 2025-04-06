@@ -15,3 +15,7 @@ class AddProductPage:
 
     def removeProduct(self):
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='REMOVE']"))).click()
+
+    def addFleece(self):
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[4]//div[3]//button[1]"))).click()
+
