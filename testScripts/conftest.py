@@ -16,17 +16,17 @@ chrome_options = Options()
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 options.add_argument("--disable-extensions")
-options.add_argument("--disable-infobars")
-options.add_argument("--disable-notifications")
-options.add_argument("--disable-popup-blocking")
-options.add_argument("--disable-gpu")
+# options.add_argument("--disable-infobars")
+# options.add_argument("--disable-notifications")
+# options.add_argument("--disable-popup-blocking")
+# options.add_argument("--disable-gpu")
 options.add_argument("--disable-dev-shm-usage")
 # options.add_argument("headless")
 options.add_argument("--disable-dev-shm-usage")
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-options.add_experimental_option("prefs", {
-    "profile.default_content_setting_values.notifications": 2
-})
+# options.add_experimental_option("prefs", {
+#     "profile.default_content_setting_values.notifications": 2
+# })
 
 @pytest.fixture()
 def setup(browser):
