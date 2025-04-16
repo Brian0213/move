@@ -2,9 +2,9 @@ name: Selenium Allure Reports
 
 on:
   push:
-    branches: [ sprintWk1 ]
+    branches: [ main ]
   pull_request:
-    branches: [ sprintWK1 ]
+    branches: [ main ]
 
 jobs:
   selenium-tests:
