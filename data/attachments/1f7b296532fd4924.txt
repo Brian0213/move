@@ -1,0 +1,6 @@
+INFO     root:test_addproducts.py:21 ******** Verifying Login test ********
+INFO     root:test_addproducts.py:22 ********Call the Browser Configuration********
+INFO     root:test_addproducts.py:26 ********Define the LoginPage Driver********
+INFO     root:test_addproducts.py:29 ********Type the Username*******
+INFO     root:test_addproducts.py:32 ********Type the Password*******
+INFO     root:test_addproducts.py:35 ******** Click the Log in Button*******
